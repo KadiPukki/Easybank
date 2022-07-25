@@ -10,7 +10,7 @@
     --dark-blue: hsl(233, 26%, 24%);
     --lime-green: hsl(136, 65%, 51%);
     --bright-blue: hsl(192, 70%, 51%);
-    --gray: hsl(233, 8%, 62%);
+    --gray: hsl(231, 6%, 51%);
     --light-gray:hsl(220, 16%, 96%);
 }
 
@@ -28,10 +28,6 @@ button {
 
 body {
     font-family: 'Poppins', sans-serif;
-}
-
-nav {
-    color: var(--dark-blue);
 }
 
 #nav-bar {
@@ -52,6 +48,7 @@ nav {
 ul {
     list-style: none;
 }
+
 
 #menu {
     display: flex;
@@ -75,14 +72,66 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: var(--light-gray);
     margin: auto;
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
-#img {
-    width:
+#text div {
+    width: 50%;
+    margin-left: 7vw;
+    margin-top: 7vw;
 }
+
+#text h2 {
+    margin-bottom: 2vw;
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+#text p {
+    margin-bottom: 2vw;
+    color: var(--gray);
+}
+
+ 
+img {
+    width: 100%;
+}
+
+#features {
+    width: 100%;
+    height: 15vh;
+}
+
+#title {
+    margin-top: 8vw;
+    margin-left: 7vw;
+    margin-bottom: 5vw;
+}
+
+#title h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--dark-blue);
+    margin-bottom: 1vw;
+}
+
+#title p {
+    color: var(--gray);
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 
 
