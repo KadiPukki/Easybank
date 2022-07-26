@@ -106,7 +106,7 @@ img {
 
 #features {
     width: 100%;
-    height: 15vh;
+    height: 90vh;
 }
 
 #title {
@@ -127,8 +127,27 @@ img {
 }
 
 #info {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: row;
+    gap: 5vw;
+}
+
+.icon {
+    width: 5vw;
+}
+
+#info h4 {
+    font-weight: 600;
+    color: var(--dark-blue);
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+#info p {
+    font-size: 1.2vw;
+    color: var(--gray);
 }
 
 
