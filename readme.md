@@ -4,7 +4,10 @@ Inspired by the project that I found out at Frontend Mentor page (https://www.fr
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Easybank page](./images/primeiro.png)
+![Easybank page](./images/segundo.png)
+![Easybank page](./images/terceiro.png)
+![Easybank page](./images/quarto.png)
 
 ### Links
 
