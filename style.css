@@ -245,6 +245,96 @@ footer {
     cursor: pointer;
 }
 
+@media (max-width: 767px) {
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    height: 50vh;
+}
+
+#text div {
+    width: 90%;
+}
+
+#img {
+    display: none;
+}
+
+#features {
+    height: 160vh;
+}
+
+.icon {
+    width: 6vw;
+}
+
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+#info p {
+    font-size: 2vw;
+}
+
+#articles {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.picture {
+    display: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    gap: 1vw;
+}
+
+#first-block {
+    margin: auto;
+}
+
+#logo-footer {
+    font-size: 5vw;
+}
+
+#social-media {
+    width: 5vw;
+    gap: 3vw;
+}
+
+#second-block {
+    font-size: 3vw;
+    line-height: 4vw;
+    margin: auto;
+}
+
+#third-block {
+    display: none;
+}
+
+#fourth-block {
+    display: none;
+}
+}
+
+@media (max-width: 767px) {
+    #features {
+        height: 140vh;
+    }
+
+    footer {
+        height: 50vh;
+    }
+
+}
+
 
 
 
