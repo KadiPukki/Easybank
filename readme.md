@@ -9,21 +9,11 @@ Inspired by the project that I found out at Frontend Mentor page (https://www.fr
 ![Easybank page](./images/terceiro.png)
 ![Easybank page](./images/quarto.png)
 
-### Links
-
-- Solution URL: ()
-
-## My process
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-
-### What I learned
-
 
 ## Author
 
